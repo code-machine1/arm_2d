@@ -80,15 +80,20 @@ ARM Macro Assembler    Page 2
    47 00000020                 END
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4 --apcs=interw
 ork --depend=.\objects\systick_wrapper_ual.d -o.\objects\systick_wrapper_ual.o 
--I.\RTE\_AT32F421C8T7_WorkBench -IC:\Users\18067\AppData\Local\Arm\Packs\ARM\CM
-SIS\6.1.0\CMSIS\Core\Include -IC:\Users\18067\AppData\Local\Arm\Packs\ArteryTek
-\AT32F421_DFP\2.1.7\Device\Include -IC:\Users\18067\AppData\Local\Arm\Packs\Gor
-gonMeducer\perf_counter\2.4.0 -IC:\Users\18067\AppData\Local\Arm\Packs\ArteryTe
-k\AT32F421_DFP\2.1.7 --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1
-" --predefine="__UVISION_VERSION SETA 540" --predefine="AT32F421C8T7 SETA 1" --
-predefine="_RTE_ SETA 1" --list=.\listings\systick_wrapper_ual.lst C:/Users/180
-67/AppData/Local/Arm/Packs/GorgonMeducer/perf_counter/2.4.0/systick_wrapper_ual
-.s
+-I.\RTE\Acceleration -I.\RTE\_AT32F421C8T7_WorkBench -IC:\Users\18067\AppData\L
+ocal\Arm\Packs\ARM\Arm-2D\1.2.1\Helper\Include -IC:\Users\18067\AppData\Local\A
+rm\Packs\ARM\Arm-2D\1.2.1\Library\Include -IC:\Users\18067\AppData\Local\Arm\Pa
+cks\ARM\Arm-2D\1.2.1\examples\common\controls -IC:\Users\18067\AppData\Local\Ar
+m\Packs\ARM\Arm-2D\1.2.1\examples\demos -IC:\Users\18067\AppData\Local\Arm\Pack
+s\ARM\CMSIS-DSP\1.15.0\Include -IC:\Users\18067\AppData\Local\Arm\Packs\ARM\CMS
+IS-DSP\1.15.0\PrivateInclude -IC:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS
+\6.1.0\CMSIS\Core\Include -IC:\Users\18067\AppData\Local\Arm\Packs\ArteryTek\AT
+32F421_DFP\2.1.7\Device\Include -IC:\Users\18067\AppData\Local\Arm\Packs\Gorgon
+Meducer\perf_counter\2.4.0 -IC:\Users\18067\AppData\Local\Arm\Packs\ArteryTek\A
+T32F421_DFP\2.1.7 --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" -
+-predefine="__UVISION_VERSION SETA 540" --predefine="AT32F421C8T7 SETA 1" --pre
+define="_RTE_ SETA 1" --list=.\listings\systick_wrapper_ual.lst C:/Users/18067/
+AppData/Local/Arm/Packs/GorgonMeducer/perf_counter/2.4.0/systick_wrapper_ual.s
 
 
 

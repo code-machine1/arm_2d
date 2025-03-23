@@ -9,7 +9,11 @@
   ..\..\libraries\drivers\inc\at32f421_def.h ..\inc\at32f421_conf.h \
   ..\..\libraries\drivers\inc\at32f421_crm.h \
   ..\..\libraries\drivers\inc\at32f421_gpio.h \
+  ..\..\libraries\drivers\inc\at32f421_usart.h \
   ..\..\libraries\drivers\inc\at32f421_pwc.h \
+  ..\..\libraries\drivers\inc\at32f421_spi.h \
+  ..\..\libraries\drivers\inc\at32f421_dma.h \
   ..\..\libraries\drivers\inc\at32f421_debug.h \
   ..\..\libraries\drivers\inc\at32f421_flash.h \
-  ..\..\libraries\drivers\inc\at32f421_misc.h
+  ..\..\libraries\drivers\inc\at32f421_misc.h \
+  ..\..\libraries\drivers\inc\at32f421_scfg.h

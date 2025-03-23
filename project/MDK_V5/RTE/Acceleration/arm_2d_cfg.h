@@ -216,7 +216,7 @@ extern "C" {
 // <i> Enable this mode to reduce the benchmark memory footprint (removing background picture etc.)
 // <i> This feature is disabled by default.
 #ifndef __ARM_2D_CFG_BENCHMARK_TINY_MODE__
-#   define __ARM_2D_CFG_BENCHMARK_TINY_MODE__                           0
+#   define __ARM_2D_CFG_BENCHMARK_TINY_MODE__                           1
 #endif
 
 // <q> Enable Stopwatch mode in the Benchmark:Watch-panel

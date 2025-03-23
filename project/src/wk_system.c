@@ -37,7 +37,7 @@ volatile uint32_t timebase_ticks;
   */
 __WEAK void wk_timebase_increase(void)
 {
-  timebase_ticks ++;
+    timebase_ticks ++;
 }
 
 /**
@@ -47,7 +47,7 @@ __WEAK void wk_timebase_increase(void)
   */
 __WEAK uint32_t wk_timebase_get(void)
 {
-  return timebase_ticks;
+    return timebase_ticks;
 }
 
 /**
@@ -58,16 +58,16 @@ __WEAK uint32_t wk_timebase_get(void)
   */
 __WEAK void wk_delay_ms(uint32_t delay)
 {
-  uint32_t start_tick = wk_timebase_get();
+    uint32_t start_tick = wk_timebase_get();
 
-  if(delay < 0xFFFFFFFFU)
-  {
-    delay += 1;
-  }
+    if(delay < 0xFFFFFFFFU)
+    {
+        delay += 1;
+    }
 
-  while((wk_timebase_get() - start_tick) < delay)
-  {
-  }
+    while((wk_timebase_get() - start_tick) < delay)
+    {
+    }
 }
 
 /**
@@ -78,21 +78,21 @@ __WEAK void wk_delay_ms(uint32_t delay)
   */
 __WEAK void wk_timebase_init(void)
 {
-  crm_clocks_freq_type crm_clocks;
-  uint32_t frequency = 0;
+    crm_clocks_freq_type crm_clocks;
+    uint32_t frequency = 0;
 
-  /* get crm_clocks */
-  crm_clocks_freq_get(&crm_clocks);
+    /* get crm_clocks */
+    crm_clocks_freq_get(&crm_clocks);
 
-  frequency = crm_clocks.ahb_freq / 8;
+    frequency = crm_clocks.ahb_freq / 8;
 
-  /* config systick clock source */
-  systick_clock_source_config(SYSTICK_CLOCK_SOURCE_AHBCLK_DIV8);
-  /* system tick config */
-  SysTick->LOAD  = (uint32_t)((frequency / 1000) - 1UL);
-  SysTick->VAL   = 0UL;
-  SysTick->CTRL |= SysTick_CTRL_TICKINT_Msk |
-                   SysTick_CTRL_ENABLE_Msk;
+    /* config systick clock source */
+    systick_clock_source_config(SYSTICK_CLOCK_SOURCE_AHBCLK_DIV8);
+    /* system tick config */
+    SysTick->LOAD  = (uint32_t)((frequency / 1000) - 1UL);
+    SysTick->VAL   = 0UL;
+    SysTick->CTRL |= SysTick_CTRL_TICKINT_Msk |
+                     SysTick_CTRL_ENABLE_Msk;
 }
 
 /**
@@ -102,6 +102,6 @@ __WEAK void wk_timebase_init(void)
   */
 __WEAK void wk_timebase_handler(void)
 {
-  wk_timebase_increase();
+    wk_timebase_increase();
 }
 

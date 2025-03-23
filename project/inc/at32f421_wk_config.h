@@ -58,9 +58,9 @@ extern "C" {
 
 /* add user code begin dma define */
 /* user can only modify the dma define value */
-//#define DMA1_CHANNEL1_BUFFER_SIZE   0
-//#define DMA1_CHANNEL1_MEMORY_BASE_ADDR   0
-//#define DMA1_CHANNEL1_PERIPHERAL_BASE_ADDR  0
+#define DMA1_CHANNEL1_BUFFER_SIZE   0
+#define DMA1_CHANNEL1_MEMORY_BASE_ADDR   0
+#define DMA1_CHANNEL1_PERIPHERAL_BASE_ADDR  0
 
 //#define DMA1_CHANNEL2_BUFFER_SIZE   0
 //#define DMA1_CHANNEL2_MEMORY_BASE_ADDR   0
@@ -78,6 +78,52 @@ extern "C" {
 //#define DMA1_CHANNEL5_MEMORY_BASE_ADDR   0
 //#define DMA1_CHANNEL5_PERIPHERAL_BASE_ADDR   0
 /* add user code end dma define */
+
+/* Private defines -------------------------------------------------------------*/
+#define CS_PIN    GPIO_PINS_13
+#define CS_GPIO_PORT    GPIOC
+#define RESET_PIN    GPIO_PINS_0
+#define RESET_GPIO_PORT    GPIOA
+#define RS_PIN    GPIO_PINS_1
+#define RS_GPIO_PORT    GPIOA
+#define RD_PIN    GPIO_PINS_2
+#define RD_GPIO_PORT    GPIOA
+#define WR_PIN    GPIO_PINS_3
+#define WR_GPIO_PORT    GPIOA
+#define SPI1_CS_PIN    GPIO_PINS_4
+#define SPI1_CS_GPIO_PORT    GPIOA
+#define DB0_PIN    GPIO_PINS_0
+#define DB0_GPIO_PORT    GPIOB
+#define DB1_PIN    GPIO_PINS_1
+#define DB1_GPIO_PORT    GPIOB
+#define DB2_PIN    GPIO_PINS_2
+#define DB2_GPIO_PORT    GPIOB
+#define DB10_PIN    GPIO_PINS_10
+#define DB10_GPIO_PORT    GPIOB
+#define DB11_PIN    GPIO_PINS_11
+#define DB11_GPIO_PORT    GPIOB
+#define DB12_PIN    GPIO_PINS_12
+#define DB12_GPIO_PORT    GPIOB
+#define DB13_PIN    GPIO_PINS_13
+#define DB13_GPIO_PORT    GPIOB
+#define DB14_PIN    GPIO_PINS_14
+#define DB14_GPIO_PORT    GPIOB
+#define DB15_PIN    GPIO_PINS_15
+#define DB15_GPIO_PORT    GPIOB
+#define DB3_PIN    GPIO_PINS_3
+#define DB3_GPIO_PORT    GPIOB
+#define DB4_PIN    GPIO_PINS_4
+#define DB4_GPIO_PORT    GPIOB
+#define DB5_PIN    GPIO_PINS_5
+#define DB5_GPIO_PORT    GPIOB
+#define DB6_PIN    GPIO_PINS_6
+#define DB6_GPIO_PORT    GPIOB
+#define DB7_PIN    GPIO_PINS_7
+#define DB7_GPIO_PORT    GPIOB
+#define DB8_PIN    GPIO_PINS_8
+#define DB8_GPIO_PORT    GPIOB
+#define DB9_PIN    GPIO_PINS_9
+#define DB9_GPIO_PORT    GPIOB
 
 /* exported functions ------------------------------------------------------- */
   /* system clock config. */

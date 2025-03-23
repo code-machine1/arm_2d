@@ -102,7 +102,7 @@ extern "C" {
 // <o>Height of the PFB block
 // <i> The height of your PFB block size used in disp0
 #ifndef __DISP0_CFG_PFB_BLOCK_HEIGHT__
-#   define __DISP0_CFG_PFB_BLOCK_HEIGHT__                          24
+#   define __DISP0_CFG_PFB_BLOCK_HEIGHT__                          5
 #endif
 
 // <o>Width Alignment of generated PFBs
@@ -116,7 +116,7 @@ extern "C" {
 //     <7=>   128 pixel
 // <i> Make sure the x and width of the PFB is always aligned to 2^n pixels
 #ifndef __DISP0_CFG_PFB_PIXEL_ALIGN_WIDTH__
-#   define __DISP0_CFG_PFB_PIXEL_ALIGN_WIDTH__                     1
+#   define __DISP0_CFG_PFB_PIXEL_ALIGN_WIDTH__                     0
 #endif
 
 // <o>Height Alignment of generated PFBs

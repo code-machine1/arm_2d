@@ -360,21 +360,21 @@ ARM Macro Assembler    Page 6
   244 0000001C                 END
               00000000 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931,A1950W --cpu=Cortex-M4 --fpu=
-SoftVFP --depend=.\objects\startup_at32f421.d -o.\objects\startup_at32f421.o -I
-.\RTE\Acceleration -I.\RTE\_AT32F421C8T7_WorkBench -IC:\Users\18067\AppData\Loc
-al\Arm\Packs\ARM\Arm-2D\1.2.1\Helper\Include -IC:\Users\18067\AppData\Local\Arm
-\Packs\ARM\Arm-2D\1.2.1\Library\Include -IC:\Users\18067\AppData\Local\Arm\Pack
-s\ARM\Arm-2D\1.2.1\examples\common\controls -IC:\Users\18067\AppData\Local\Arm\
-Packs\ARM\Arm-2D\1.2.1\examples\demos -IC:\Users\18067\AppData\Local\Arm\Packs\
-ARM\CMSIS-DSP\1.15.0\Include -IC:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS
--DSP\1.15.0\PrivateInclude -IC:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS\6
-.1.0\CMSIS\Core\Include -IC:\Users\18067\AppData\Local\Arm\Packs\ArteryTek\AT32
-F421_DFP\2.1.7\Device\Include -IC:\Users\18067\AppData\Local\Arm\Packs\GorgonMe
-ducer\perf_counter\2.4.0 -IC:\Users\18067\AppData\Local\Arm\Packs\ArteryTek\AT3
-2F421_DFP\2.1.7 --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION 
-SETA 540" --predefine="AT32F421C8T7 SETA 1" --predefine="_RTE_ SETA 1" --list=.
-\listings\startup_at32f421.lst startup_at32f421.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4 --apcs=interw
+ork --depend=.\objects\startup_at32f421.d -o.\objects\startup_at32f421.o -I.\RT
+E\Acceleration -I.\RTE\_AT32F421C8T7_WorkBench -IC:\Users\18067\AppData\Local\A
+rm\Packs\ARM\Arm-2D\1.2.1\Helper\Include -IC:\Users\18067\AppData\Local\Arm\Pac
+ks\ARM\Arm-2D\1.2.1\Library\Include -IC:\Users\18067\AppData\Local\Arm\Packs\AR
+M\Arm-2D\1.2.1\examples\common\controls -IC:\Users\18067\AppData\Local\Arm\Pack
+s\ARM\Arm-2D\1.2.1\examples\demos -IC:\Users\18067\AppData\Local\Arm\Packs\ARM\
+CMSIS-DSP\1.15.0\Include -IC:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP
+\1.15.0\PrivateInclude -IC:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0
+\CMSIS\Core\Include -IC:\Users\18067\AppData\Local\Arm\Packs\ArteryTek\AT32F421
+_DFP\2.1.7\Device\Include -IC:\Users\18067\AppData\Local\Arm\Packs\GorgonMeduce
+r\perf_counter\2.4.0 -IC:\Users\18067\AppData\Local\Arm\Packs\ArteryTek\AT32F42
+1_DFP\2.1.7 --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --prede
+fine="__UVISION_VERSION SETA 540" --predefine="AT32F421C8T7 SETA 1" --predefine
+="_RTE_ SETA 1" --list=.\listings\startup_at32f421.lst startup_at32f421.s
 
 
 
@@ -934,4 +934,4 @@ Symbol: __main
       At line 107 in file startup_at32f421.s
 Comment: __main used once
 2 symbols
-391 symbols in table
+392 symbols in table
