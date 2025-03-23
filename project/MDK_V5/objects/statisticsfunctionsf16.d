@@ -1,0 +1,36 @@
+./objects/statisticsfunctionsf16.o: \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\StatisticsFunctionsF16.c \
+  RTE\Acceleration\arm_2d_cfg.h \
+  RTE\_AT32F421C8T7_WorkBench\RTE_Components.h \
+  RTE\_AT32F421C8T7_WorkBench\Pre_Include_Global.h \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_max_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Include\dsp\statistics_functions_f16.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types_f16.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Include\dsp\none.h \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Include\dsp\utils.h \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Include\dsp\basic_math_functions_f16.h \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Include\dsp\fast_math_functions_f16.h \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Include\dsp\fast_math_functions.h \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Include\dsp\basic_math_functions.h \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_min_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_mean_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_power_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_rms_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_std_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_var_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_entropy_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_kullback_leibler_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_logsumexp_dot_prod_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_logsumexp_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_max_no_idx_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_min_no_idx_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_absmax_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_absmin_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_absmax_no_idx_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_absmin_no_idx_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_mse_f16.c \
+  C:\Users\18067\AppData\Local\Arm\Packs\ARM\CMSIS-DSP\1.15.0\Source\StatisticsFunctions\arm_accumulate_f16.c
